@@ -49,7 +49,7 @@ import watchProductsImg from '../Images/Projects/watch-products.jpg';
 // import { color } from "framer-motion";
 
 export const startLink = '';
-export const resumeLink = 'https://1drv.ms/b/c/1c6a67b011612f33/IQBqLIqFkgxFS5sKcVnalNlPAbwd2bOZ4C9H4AdhXA1idRk?e=QRQZ8A';
+export const resumeLink = 'https://1drv.ms/b/c/1c6a67b011612f33/IQDxSenIVXDXSr_c1Xb7BnoIAd3R1WaykQuLiwVMu5FCu0E?e=9AOgwF';
 // export const resumeLink = './files/MUSTAFA_Abutabl_resume.pdf';
 
 export const myHomeData = {
