@@ -1,10 +1,8 @@
 import { DiJavascript1 } from 'react-icons/di';
 import {
-	FaBootstrap,
 	FaCss3Alt,
 	FaEnvelopeOpen,
 	// FaFacebookMessenger,
-	FaGitAlt,
 	FaGithub,
 	FaHtml5,
 	FaLaptopCode,
@@ -14,22 +12,24 @@ import {
 	// FaPhoneAlt,
 	FaReact,
 	// FaRegHospital,
-	FaSass,
 	FaTelegram,
+	FaPhp,
+	FaDatabase,
+	FaAws,
+	FaDocker
 	// FaToolbox,
 	// FaWhatsapp,
 } from 'react-icons/fa';
 import { GiOpenBook } from 'react-icons/gi';
 import {
-	SiAlpinedotjs,
-	// SiAutodesk,
-	SiExpress,
-	SiMaterialui,
 	SiMongodb,
 	SiNextdotjs,
 	SiRedux,
-	SiTailwindcss,
 	SiTypescript,
+	SiVite,
+	SiNestjs,
+	SiMysql,
+	SiKubernetes
 } from 'react-icons/si';
 import basicCalculatorImg from '../Images/Projects/basic-calculator.png';
 import caraShopingImg from '../Images/Projects/cara-shoping.jpg';
@@ -48,8 +48,13 @@ import templateCarouselImg from '../Images/Projects/template-w-carouse.jpg';
 import watchProductsImg from '../Images/Projects/watch-products.jpg';
 // import { color } from "framer-motion";
 
+
+// import { FaHtml5, FaCss3Alt, FaReact, FaNode, , , ,  } from "react-icons/fa";
+// import { DiJavascript1 } from "react-icons/di";
+// import { SiTypescript, SiNextdotjs, SiRedux, , , SiMongodb, , ,  } from "react-icons/si";
+
 export const startLink = '';
-export const resumeLink = 'https://1drv.ms/b/c/1c6a67b011612f33/IQDxSenIVXDXSr_c1Xb7BnoIAd3R1WaykQuLiwVMu5FCu0E?e=9AOgwF';
+export const resumeLink = 'https://1drv.ms/b/c/1c6a67b011612f33/IQCU8pvc-b2cQI0DdvWECVqxAYR82k9iTSo3yrjw3ye-ZQQ?e=DGciL5';
 // export const resumeLink = './files/MUSTAFA_Abutabl_resume.pdf';
 
 export const myHomeData = {
@@ -91,105 +96,74 @@ export const mySocialContact = [
 ];
 
 export const skills = [
-	{ id: 401, title: 'HTML', icon: <FaHtml5 />, color: '#e56229' },
-	{ id: 402, title: 'CSS', icon: <FaCss3Alt />, color: '#007FFF' },
-	{ id: 403, title: 'JavaScript', icon: <DiJavascript1 />, color: '#EAD41C' },
-	{ id: 410, title: 'TypeScript', icon: <SiTypescript />, color: '#3178c6' },
-	{ id: 404, title: 'React', icon: <FaReact />, color: '#00CEF2' },
-	{ id: 405, title: 'Next', icon: <SiNextdotjs /> },
-	{ id: 406, title: 'Alpine.js', icon: <SiAlpinedotjs />, color: '#77C1D2' },
-	{ id: 407, title: 'Express', icon: <SiExpress /> },
-	{ id: 408, title: 'MongoDB', icon: <SiMongodb />, color: '#4E9E42' },
-	{ id: 409, title: 'Node.js', icon: <FaNode />, color: '#5CA74B' },
+  { id: 401, title: 'HTML', icon: <FaHtml5 />, color: '#e56229' },
+  { id: 402, title: 'CSS', icon: <FaCss3Alt />, color: '#007FFF' },
+  { id: 403, title: 'JavaScript', icon: <DiJavascript1 />, color: '#EAD41C' },
+  { id: 404, title: 'TypeScript', icon: <SiTypescript />, color: '#3178c6' },
+  { id: 405, title: 'React', icon: <FaReact />, color: '#00CEF2' },
+  { id: 406, title: 'React Native', icon: <FaReact />, color: '#61dafb' }, 
+  { id: 407, title: 'Redux', icon: <SiRedux />, color: '#764abc' },
+  { id: 408, title: 'Next.js', icon: <SiNextdotjs />, color: '#000000' },
+  { id: 409, title: 'Vite', icon: <SiVite />, color: '#646cff' },
+  { id: 410, title: 'Node.js', icon: <FaNode />, color: '#5CA74B' },
+  { id: 411, title: 'Express', icon: <SiNestjs />, color: '#000000' }, // Using NestJS icon as a placeholder
+  { id: 412, title: 'NestJS', icon: <SiNestjs />, color: '#E0234E' },
+  { id: 413, title: 'PHP', icon: <FaPhp />, color: '#777BB4' },
+  { id: 414, title: 'REST APIs', icon: <FaDatabase />, color: '#FF6F61' }, // generic API/db icon
 ];
 
 export const skills2 = [
-	{ id: 501, title: 'Bootstrap', icon: <FaBootstrap />, color: '#733DBE' },
-	{ id: 502, title: 'Material UI', icon: <SiMaterialui />, color: '#007FFF' },
-	{ id: 503, title: 'Tailwindcss', icon: <SiTailwindcss />, color: '#00bcff' },
-	{ id: 504, title: 'Github', icon: <FaGithub /> },
-	{ id: 505, title: 'Git', icon: <FaGitAlt />, color: '#DE4C36' },
-	{ id: 506, title: 'Redux', icon: <SiRedux />, color: '#764ABC' },
-	{ id: 507, title: 'SASS', icon: <FaSass />, color: '#c76494' },
+	{ id: 415, title: 'MongoDB', icon: <SiMongodb />, color: '#4E9E42' },
+	{ id: 416, title: 'MySQL', icon: <SiMysql />, color: '#00758F' },
+	{ id: 417, title: 'SQL', icon: <FaDatabase />, color: '#F29111' },
+	{ id: 418, title: 'ClickHouse', icon: <FaDatabase  />, color: '#F37934' },
+	{ id: 419, title: 'AWS', icon: <FaAws />, color: '#FF9900' },
+	{ id: 420, title: 'Docker', icon: <FaDocker />, color: '#2496ED' },
+	{ id: 421, title: 'Kubernetes', icon: <SiKubernetes />, color: '#326CE5' },
+	{ id: 422, title: 'CI/CD', icon: <FaDocker />, color: '#0db7ed' } // using Docker icon as a placeholder for CI/CD
 ];
 
 export const timelineData = [
 	{
-		date: '2022 - Present',
-		title: 'Full Stack Developer',
+		date: 'January 2022 – Present',
+		title: 'Senior Full Stack Developer',
 		organization: 'Helsinki, Finland',
 		content: [
-			'• Designed and developed scalable web applications using modern frontend and backend technologies.',
-			'• Built RESTful APIs and optimized database performance for large-scale systems.',
-			'• Improved application response time by 30% through code optimization and caching strategies.',
-			'• Collaborated with cross-functional teams to deliver high-quality software solutions.',
-			'• Participated in code reviews, debugging, and system architecture design.',
+			'• Developed Python/FastAPI microservices and React-based web applications, serving 50k+ users.',
+			'• Implemented REST APIs, integrated PostgreSQL, MongoDB, and Redis, improving data efficiency by 30%.',
+			'• Leveraged Elasticsearch for search-driven features, increasing query performance by 25%.',
+			'• Deployed applications on Kubernetes with CI/CD pipelines using Jenkins, reducing deployment time by 40%.',
+			'• Provided technical guidance and code reviews, improving team productivity and code quality.',
 		],
 		icon: <FaLaptopCode />,
 	},
 	{
-		date: '2019 - 2022',
+		date: 'June 2020 – December 2021',
 		title: 'Full Stack Developer',
 		organization: 'Helsinki, Finland',
 		content: [
-			'• Developed responsive user interfaces and backend services for internal and customer-facing platforms',
-			'• Implemented authentication, data management, and API integration features.',
-			'• Supported continuous integration and deployment pipelines',
-			'• Reduced system bugs by performing rigorous testing and code validation.',
-			'• Worked in agile development environments following Scrum practices.',
+			'• Built and maintained web applications using React, TypeScript, and Python/FastAPI backend.',
+			'• Designed and consumed REST APIs to integrate services across PostgreSQL and MongoDB databases.',
+			'• Implemented CI/CD workflows, automated deployments, and monitored cloud applications on GCP.',
+			'• Collaborated with cross-functional teams to ensure architectural alignment and scalable solutions.',
 		],
 		icon: <FaLaptopCode />,
 	},
-	// {
-	// 	date: 'Nov/2018 - Present',
-	// 	title: '3D VISUALIZER',
-	// 	organization: 'Freelancer',
-	// 	icon: <SiAutodesk />,
-	// },
-	// {
-	// 	date: 'Jul/2016 - Sep/2018',
-	// 	title: 'Biomedical Engineer',
-	// 	organization: 'Smama Group, Jeddah',
-	// 	icon: <FaToolbox />,
-	// },
-	// {
-	// 	date: 'Feb/2014 - Jul/2016',
-	// 	title: 'Biomedical Engineer',
-	// 	organization: 'Saad Ahmed Saad EST, Jeddah',
-	// 	icon: <FaToolbox />,
-	// },
-	// {
-	// 	date: 'Mar/2013 - Dec/2013',
-	// 	title: 'Biomedical Engineer Trainee and Volunteer',
-	// 	organization: 'International Medical Center, Jeddah',
-	// 	icon: <FaRegHospital />,
-	// },
 	{
-		date: '2015 - 2019',
+		date: 'January 2018 – May 20209',
 		title: 'Bachelor of Science in Computer Science',
 		organization: 'University of Helsinki',
 		content: [
-			'• Software Engineering',
-			'• Data Structures and Algorithms',
-			'• Web Application Development',
-			'• Database Systems',
-			'• Computer Programming Fundamentals',
+			'• Contributed to Python and React projects as part of coursework and internships.',
+			'• Assisted in developing microservices, REST APIs, and integrating PostgreSQL and MongoDB.',
+			'• Learned Kubernetes deployment, CI/CD best practices, and production-ready application standards.',
+			'• Developed internal scripts/tools improving team efficiency by 10–15 hours/week.',
 		],
 		icon: <GiOpenBook />,
 	},
 ];
 
 export const myProjects = [
-	// {
-	// 	id: 117,
-	// 	title: "Government Services Website",
-	// 	img: governmentServicesImg,
-	// 	link: null,
-	// 	githubLink: "https://github.com/yourusername/government-services",
-	// 	Language: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-	// 	description:
-	// 		"Developed a government services website to facilitate the completion of official paperwork and procedures. As part of the Backend team, I built almost the entire project except for the users section. I developed APIs and managed databases for Blogs, Chat, Services, and Papers. Additionally, I contributed to the Frontend by completing the Papers section due to time constraints faced by the Frontend team.", // Project description
-	// },
 	{
 		id: 117,
 		title: 'Sllm Blog Website',
