@@ -1,0 +1,346 @@
+import { DiJavascript1 } from 'react-icons/di';
+import {
+	FaBootstrap,
+	FaCss3Alt,
+	FaEnvelopeOpen,
+	FaFacebookMessenger,
+	FaGitAlt,
+	FaGithub,
+	FaHtml5,
+	FaLaptopCode,
+	FaLinkedinIn,
+	FaMap,
+	FaNode,
+	FaPhoneAlt,
+	FaReact,
+	// FaRegHospital,
+	FaSass,
+	FaTelegram,
+	FaToolbox,
+	FaWhatsapp,
+} from 'react-icons/fa';
+import { GiOpenBook } from 'react-icons/gi';
+import {
+	SiAlpinedotjs,
+	// SiAutodesk,
+	SiExpress,
+	SiMaterialui,
+	SiMongodb,
+	SiNextdotjs,
+	SiRedux,
+	SiTailwindcss,
+	SiTypescript,
+} from 'react-icons/si';
+import basicCalculatorImg from '../Images/Projects/basic-calculator.png';
+import caraShopingImg from '../Images/Projects/cara-shoping.jpg';
+import currencyExchangeImg from '../Images/Projects/currency-exchange.jpg';
+import devitaWatchsImg from '../Images/Projects/devita-watchs-full.jpg';
+import lusionShoppingImg from '../Images/Projects/react-lusion.jpg';
+import academyFrontendImg from '../Images/Projects/SEF-Academy-Trining-01.png';
+import academyFullStackImg from '../Images/Projects/SEF-Academy-Trining-02.png';
+import simpleMoviesImg from '../Images/Projects/Simple Movies-full.jpg';
+import simpleMoviesReduxImg from '../Images/Projects/simple-movies-redux-full.jpg';
+import sllmBlogImg from '../Images/Projects/SLLM Blogs-sllm-blog-redux.vercel.app.webp';
+import Tamplate101DesignImg from '../Images/Projects/Tamplate-101-full.jpg';
+import Tamplate102RocherImg from '../Images/Projects/Tamplate-102-Rocher-Furniture-full.jpg';
+import coffeeKingImg from '../Images/Projects/Tamplate-103-CoffeeKing-Bootstrap-full.jpg';
+import templateCarouselImg from '../Images/Projects/template-w-carouse.jpg';
+import watchProductsImg from '../Images/Projects/watch-products.jpg';
+// import { color } from "framer-motion";
+
+export const startLink = '';
+export const resumeLink = 'https://1drv.ms/b/c/1c6a67b011612f33/IQBqLIqFkgxFS5sKcVnalNlPAbwd2bOZ4C9H4AdhXA1idRk?e=QRQZ8A';
+// export const resumeLink = './files/MUSTAFA_Abutabl_resume.pdf';
+
+export const myHomeData = {
+	name: 'Rosa Baker',
+	job: 'Full Stack Web Developer',
+	summery:
+		'Program Developer with 6+ years of experience designing, developing, and maintaining scalable web applications. Skilled in both frontend and backend development with modern programming frameworks and database technologies. Experienced in building reliable software solutions, improving system performance, and collaborating with cross-functional teams in agile environments. Passionate about writing clean, efficient code and delivering high-quality applications.',
+};
+
+export const myPersonalInfo = [
+	{ id: 201, title: 'First Name', info: 'Rosa' },
+	{ id: 202, title: 'Last Name', info: 'Baker' },
+	// { id: 203, title: 'Birthdate: ', info: '19 Oct 1989' },
+	{ id: 204, title: 'Nationality', info: 'Finland' },
+	{ id: 206, title: 'Languages', info: 'English' },
+	{ id: 207, title: 'email', info: 'rosab1117@outlook.com' },
+	{ id: 209, title: 'Freelance', info: 'Available', color: '#01ef92' },
+];
+
+export const myContactInfo = [
+	{ id: 301, title: 'Address', icon: FaMap, info: 'Finland, Helsinki', link: '' },
+	{
+		id: 302,
+		title: 'Mail Me',
+		icon: FaEnvelopeOpen,
+		info: 'rosab1117@outlook.com',
+		// link: 'mailto:rosab1117@outlook.com',
+	},
+	// { id: 303, title: 'Call Me', icon: FaPhoneAlt, info: '+20 111 970 6667', link: 'tel:+201119706667' },
+];
+
+export const mySocialContact = [
+	// { id: 311, title: 'Whatsapp', icon: FaWhatsapp, link: 'https://wa.me/201119706667' },
+	{ id: 312, title: 'Github', icon: FaGithub, link: 'https://github.com/Rosa1117' },
+	// { id: 313, title: 'Linkedin', icon: FaLinkedinIn, link: 'https://www.linkedin.com/in/e-mustafa' },
+	// { id: 314, title: 'Facebook', icon: FaFacebookF, link: 'https://web.facebook.com/my.6000' },
+	// { id: 315, title: 'messenger', icon: FaFacebookMessenger, link: 'https://m.me/my.6000' },
+	{ id: 316, title: 'Telegram', icon: FaTelegram, link: 'https://t.me/eng_noo' },
+];
+
+export const skills = [
+	{ id: 401, title: 'HTML', icon: <FaHtml5 />, color: '#e56229' },
+	{ id: 402, title: 'CSS', icon: <FaCss3Alt />, color: '#007FFF' },
+	{ id: 403, title: 'JavaScript', icon: <DiJavascript1 />, color: '#EAD41C' },
+	{ id: 410, title: 'TypeScript', icon: <SiTypescript />, color: '#3178c6' },
+	{ id: 404, title: 'React', icon: <FaReact />, color: '#00CEF2' },
+	{ id: 405, title: 'Next', icon: <SiNextdotjs /> },
+	{ id: 406, title: 'Alpine.js', icon: <SiAlpinedotjs />, color: '#77C1D2' },
+	{ id: 407, title: 'Express', icon: <SiExpress /> },
+	{ id: 408, title: 'MongoDB', icon: <SiMongodb />, color: '#4E9E42' },
+	{ id: 409, title: 'Node.js', icon: <FaNode />, color: '#5CA74B' },
+];
+
+export const skills2 = [
+	{ id: 501, title: 'Bootstrap', icon: <FaBootstrap />, color: '#733DBE' },
+	{ id: 502, title: 'Material UI', icon: <SiMaterialui />, color: '#007FFF' },
+	{ id: 503, title: 'Tailwindcss', icon: <SiTailwindcss />, color: '#00bcff' },
+	{ id: 504, title: 'Github', icon: <FaGithub /> },
+	{ id: 505, title: 'Git', icon: <FaGitAlt />, color: '#DE4C36' },
+	{ id: 506, title: 'Redux', icon: <SiRedux />, color: '#764ABC' },
+	{ id: 507, title: 'SASS', icon: <FaSass />, color: '#c76494' },
+];
+
+export const timelineData = [
+	{
+		date: '2022 - Present',
+		title: 'Full Stack Developer',
+		organization: 'Helsinki, Finland',
+		content: [
+			'• Designed and developed scalable web applications using modern frontend and backend technologies.',
+			'• Built RESTful APIs and optimized database performance for large-scale systems.',
+			'• Improved application response time by 30% through code optimization and caching strategies.',
+			'• Collaborated with cross-functional teams to deliver high-quality software solutions.',
+			'• Participated in code reviews, debugging, and system architecture design.',
+		],
+		icon: <FaLaptopCode />,
+	},
+	{
+		date: '2019 - 2022',
+		title: 'Full Stack Developer',
+		organization: 'Helsinki, Finland',
+		content: [
+			'• Developed responsive user interfaces and backend services for internal and customer-facing platforms',
+			'• Implemented authentication, data management, and API integration features.',
+			'• Supported continuous integration and deployment pipelines',
+			'• Reduced system bugs by performing rigorous testing and code validation.',
+			'• Worked in agile development environments following Scrum practices.',
+		],
+		icon: <FaLaptopCode />,
+	},
+	// {
+	// 	date: 'Nov/2018 - Present',
+	// 	title: '3D VISUALIZER',
+	// 	organization: 'Freelancer',
+	// 	icon: <SiAutodesk />,
+	// },
+	// {
+	// 	date: 'Jul/2016 - Sep/2018',
+	// 	title: 'Biomedical Engineer',
+	// 	organization: 'Smama Group, Jeddah',
+	// 	icon: <FaToolbox />,
+	// },
+	// {
+	// 	date: 'Feb/2014 - Jul/2016',
+	// 	title: 'Biomedical Engineer',
+	// 	organization: 'Saad Ahmed Saad EST, Jeddah',
+	// 	icon: <FaToolbox />,
+	// },
+	// {
+	// 	date: 'Mar/2013 - Dec/2013',
+	// 	title: 'Biomedical Engineer Trainee and Volunteer',
+	// 	organization: 'International Medical Center, Jeddah',
+	// 	icon: <FaRegHospital />,
+	// },
+	{
+		date: '2015 - 2019',
+		title: 'Bachelor of Science in Computer Science',
+		organization: 'University of Helsinki',
+		content: [
+			'• Software Engineering',
+			'• Data Structures and Algorithms',
+			'• Web Application Development',
+			'• Database Systems',
+			'• Computer Programming Fundamentals',
+		],
+		icon: <GiOpenBook />,
+	},
+];
+
+export const myProjects = [
+	// {
+	// 	id: 117,
+	// 	title: "Government Services Website",
+	// 	img: governmentServicesImg,
+	// 	link: null,
+	// 	githubLink: "https://github.com/yourusername/government-services",
+	// 	Language: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
+	// 	description:
+	// 		"Developed a government services website to facilitate the completion of official paperwork and procedures. As part of the Backend team, I built almost the entire project except for the users section. I developed APIs and managed databases for Blogs, Chat, Services, and Papers. Additionally, I contributed to the Frontend by completing the Papers section due to time constraints faced by the Frontend team.", // Project description
+	// },
+	{
+		id: 117,
+		title: 'Sllm Blog Website',
+		img: sllmBlogImg,
+		link: 'https://sllm-blog-redux.vercel.app/',
+		// githubLink: 'https://github.com/e-mustafa/sllm-blog-redux',
+		Language: ['HTML', 'CSS', 'tailwindcss', 'JavaScript', 'React', 'Node.js'],
+		description:
+			'Sllm Blog is a modern, bilingual blog website developed using Next.js and Redux. It features a user-friendly and fully responsive interface, with dynamic SEO optimization tailored for each blog post. The platform supports both Arabic and English languages, allowing users to switch the language of each blog individually. In addition, it includes essential functionalities such as advanced search and seamless pagination to enhance the browsing experience.',
+	},
+	{
+		id: 116,
+		title: 'SEF Academy Website  (Full Stack Trining)',
+		img: academyFullStackImg,
+		link: 'https://project-01-seff-website-2023-09-2-my-part.vercel.app/',
+		// githubLink: 'https://github.com/e-mustafa/Project-01-SEFF_Website-2023-09--2-my-part',
+		Language: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React', 'Node.js', 'Express', 'MongoDB'],
+		description:
+			'Contributed to the development of an SEF Academy Website as part of both the Frontend and Backend teams. Developed user interfaces using React and built APIs for Articles, Certificates, Exams, and Applications using Node.js and Express. Managed databases using MongoDB.',
+	},
+	{
+		id: 115,
+		title: 'SEF Academy Website (Frontend Trining)',
+		img: academyFrontendImg,
+		link: 'https://project-01-seff-website-2023-07-my-part.vercel.app/',
+		// githubLink: 'https://github.com/e-mustafa/Project-01-SEFF_Website-2023-07--my-part',
+		Language: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React'],
+		description:
+			'Contributed to the development of the user interface for an SEF Academy Website as part of the Frontend team. Designed and implemented student registration pages, course displays, and grade tracking using React. Enhanced user experience with an interactive and smooth design.',
+	},
+	{
+		id: 113,
+		title: 'Devita Watchs',
+		img: devitaWatchsImg,
+		link: 'https://devita-watchs.vercel.app/',
+		// githubLink: 'https://github.com/e-mustafa/devita-watchs',
+		Language: ['HTML', 'CSS', 'Material Ui', 'Javascript', 'React', 'Next'],
+		description:
+			'Online store for selling wristwatches, Developed using Next js 13 app dirctory, static & dynamic metadata, shopping cart, favorite list, With notifications toast.',
+	},
+	// {
+	// 	id: 112,
+	// 	title: "Rosa Baker Portfolio",
+	// 	img: coffeeKingImg,
+	// 	link: "https://e-mustafa.github.io/Tamplate-103-CoffeeKing-Bootstrap",
+		// githubLink:
+	// 		"https://github.com/e-mustafa/Tamplate-103-CoffeeKing-Bootstrap",
+	// 	Language: ["HTML", "CSS", "Bootstrap", "Javascript"],
+	// 	description:
+	// 		"Coffee shop template with edit bootstrap default colors and JavaScript shopping cart, favorite list, register and sign in with validate. With notifications toast. You need to register and sign in to checkout and add items to favorite list.",
+	// },
+	{
+		id: 111,
+		title: 'Coffee shop template',
+		img: coffeeKingImg,
+		link: 'https://e-mustafa.github.io/Tamplate-103-CoffeeKing-Bootstrap',
+		// githubLink: 'https://github.com/e-mustafa/Tamplate-103-CoffeeKing-Bootstrap',
+		Language: ['HTML', 'CSS', 'Bootstrap', 'Javascript'],
+		description:
+			'Coffee shop template with edit bootstrap default colors and JavaScript shopping cart, favorite list, register and sign in with validate. With notifications toast. You need to register and sign in to checkout and add items to favorite list.',
+	},
+	{
+		id: 110,
+		title: 'Rocher-Furniture Tamplate',
+		img: Tamplate102RocherImg,
+		link: 'https://e-mustafa.github.io/Tamplate-102-Rocher-Furniture',
+		// githubLink: 'https://github.com/e-mustafa/Tamplate-102-Rocher-Furniture',
+		Language: ['HTML5', 'CSS3'],
+		description: 'Rocher-Furniture Tamplate html and some css3.',
+	},
+	{
+		id: 109,
+		title: 'Architectural Design Template',
+		img: Tamplate101DesignImg,
+		link: 'https://e-mustafa.github.io/Tamplate-101/',
+		// githubLink: 'https://github.com/e-mustafa/Tamplate-101',
+		Language: ['HTML', 'CSS'],
+		description: 'Architectur Design template html & css only.',
+	},
+	{
+		id: 108,
+		title: 'Simple Movies with Redux',
+		img: simpleMoviesReduxImg,
+		link: 'https://simplemovies-redux.netlify.app',
+		// githubLink: 'https://github.com/e-mustafa/moviesApp-redux',
+		Language: ['HTML', 'CSS', 'Material Ui', 'Javascript', 'React', 'Redux'],
+		description: 'Simple movies website to discover popular movies, and add to favorite list, with using Redux.',
+	},
+	{
+		id: 107,
+		title: 'Simple Movies',
+		img: simpleMoviesImg,
+		link: 'https://simplemovies-app.netlify.app',
+		// githubLink: 'https://github.com/e-mustafa/sempleMoviesApp',
+		Language: ['HTML', 'CSS', 'Material Ui', 'Javascript', 'React'],
+		description: 'Simple movies website to discover popular movies, and add to favorite list.',
+	},
+	{
+		id: 106,
+		title: 'Lusion Shopping',
+		img: lusionShoppingImg,
+		link: 'https://react-lusion-app.netlify.app',
+		// githubLink: 'https://github.com/e-mustafa/React-Lusion-App',
+		Language: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'React'],
+		description: 'Lustion ecommerce web responsive with many pages and form validation.',
+	},
+	{
+		id: 105,
+		title: 'Cara Shoping',
+		img: caraShopingImg,
+		link: 'https://cara-shoping.vercel.app',
+		// githubLink: 'https://github.com/e-mustafa/Cara-Shoping',
+		Language: ['HTML', 'CSS', 'Bootstrap', 'Javascript'],
+		description: 'responsive ecommerce website main page, sign up and sign in made with js.',
+	},
+	{
+		id: 104,
+		title: 'Currency Exchange',
+		img: currencyExchangeImg,
+		link: 'https://currency-exchange-mu.vercel.app',
+		// githubLink: 'https://github.com/e-mustafa/currencyExchange',
+		Language: ['HTML', 'CSS', 'Bootstrap', 'Javascript'],
+		description:
+			'This is a simple Currency Converter application, I took help from this website, "exchangerate-api" to create an API connection.',
+	},
+	{
+		id: 103,
+		title: 'Basic Calculator',
+		img: basicCalculatorImg,
+		link: 'https://basic-calculator-self.vercel.app',
+		// githubLink: 'https://github.com/e-mustafa/basic-Calculator',
+		Language: ['HTML', 'CSS', 'Bootstrap', 'Javascript'],
+		description:
+			'Basic Calculator for doing simple mathematical operations: addition, subtraction, multiplication, division. This is a simplified version of the online.',
+	},
+	{
+		id: 102,
+		title: 'Watch Products',
+		img: watchProductsImg,
+		link: 'https://watch-products.vercel.app',
+		// githubLink: 'https://github.com/e-mustafa/Watch-Products',
+		Language: ['HTML', 'CSS', 'Bootstrap'],
+		description: 'single page responsive website.',
+	},
+	{
+		id: 101,
+		title: 'Template W Carousel',
+		img: templateCarouselImg,
+		link: 'https://template-w-carousel.vercel.app',
+		// githubLink: 'https://github.com/e-mustafa/template-w-carousel',
+		Language: ['HTML', 'CSS', 'Bootstrap'],
+		description: 'single page responsive website.',
+	},
+];
