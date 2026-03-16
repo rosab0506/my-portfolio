@@ -16,7 +16,7 @@ import { Box } from '@mui/system';
 
 import CloseIcon from '@mui/icons-material/Close';
 import VisibilityIcon from '@mui/icons-material/Visibility';
-import GitHubIcon from '@mui/icons-material/GitHub';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function ProjectDetails({ open, setOpen, EProjectDetails }) {
 	const handleClose = () => {
