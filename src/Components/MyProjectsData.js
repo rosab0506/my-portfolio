@@ -54,7 +54,7 @@ import watchProductsImg from '../Images/Projects/watch-products.jpg';
 // import { SiTypescript, SiNextdotjs, SiRedux, , , SiMongodb, , ,  } from "react-icons/si";
 
 export const startLink = '';
-export const resumeLink = 'https://1drv.ms/b/c/1c6a67b011612f33/IQCU8pvc-b2cQI0DdvWECVqxAYR82k9iTSo3yrjw3ye-ZQQ?e=DGciL5';
+export const resumeLink = 'https://1drv.ms/b/c/1c6a67b011612f33/IQCwI8in_yGJQqhpNyukSBFlAaCqDKlpQO5OdM_aQ17sY18?e=Mm9mQ5';
 // export const resumeLink = './files/MUSTAFA_Abutabl_resume.pdf';
 
 export const myHomeData = {
